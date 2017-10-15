@@ -1,0 +1,19 @@
+{
+    "name": "merge-packagefiles",
+    "version": "0.0.2",
+    "description": "my package test",
+    "main": "index.js",
+    "scripts": {
+        "test": "test"
+    },
+    "author": "Jerry Shaughnessy <jshaughnessy@placester.com> (http://placester.com)",
+    "license": "MIT",
+    "bin": {
+        "pkg-test": "./index.js"
+    },
+    "dependencies": {
+        "co": "^4.6.0",
+        "co-prompt": "^1.0.0",
+        "commander": "^2.11.0"
+    }
+}
